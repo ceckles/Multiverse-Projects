@@ -1,0 +1,23 @@
+{
+  "name": "scooterrental",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --coverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceckles/ScooterRental.git"
+  },
+  "author": "chad eckles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceckles/ScooterRental/issues"
+  },
+  "homepage": "https://github.com/ceckles/ScooterRental#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}

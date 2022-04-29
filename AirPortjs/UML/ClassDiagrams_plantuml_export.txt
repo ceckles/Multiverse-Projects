@@ -1,0 +1,25 @@
+@startuml
+
+title Airport - Class Diagram
+
+
+class Airport {
+  + String name
+  +{static} airports(): Array
+  +land: Plane { plane }
+  +takeoff: Plane { plane }
+}
+
+class Plane{
+  +Int flightNumber
+  +Array cabinCrew
+  +Array flightCrew
+  +Array passengers
+  +addFlightCrew(crew) : flightCrew
+  +addCabinCrew(crew) : cabinCrew
+  +addPassenger(crew) : passsengers
+}
+class House
+class Commune
+
+@enduml

@@ -1,0 +1,16 @@
+<h5 id="logo">{{restaurant.name}}</h5>
+    <img src="{{restaurant.image}}" alt="..." width="1000" height="625"/>
+    <p style="padding-top: 10px"><a href="/restaurants" class="btn btn-warning m-1">Back to
+        Restaurants</a></p>
+    <h2 class="mb-2 text-muted">Menu:</h2>
+
+  {{#each restaurant.Menus}}
+  <div class="col-md-3 justify-content-center offset-md-2">
+    <h5>{{this.title}}</h5>
+    <ul class="list-group list-group-flush">
+      {{#each this.MenuItems}}
+        <li class="list-group-item">{{this.name}} : ${{this.price}}</li>
+      {{/each}}
+    </ul>
+  </div>
+  {{/each}}

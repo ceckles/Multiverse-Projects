@@ -1,0 +1,27 @@
+{
+  "name": "sequelizeLession",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceckles/sequelizeLession.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceckles/sequelizeLession/issues"
+  },
+  "homepage": "https://github.com/ceckles/sequelizeLession#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
+  }
+}
